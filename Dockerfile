@@ -25,4 +25,5 @@ USER jovyan
 # Install Jupyter AI with Claude Code integration
 RUN pip install --no-cache-dir \
     jupyter-ai \
-    jupyter-ai-claude-code
+    jupyter-ai-claude-code \
+    jupyter-collaboration
